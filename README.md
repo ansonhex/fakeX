@@ -1,6 +1,8 @@
 # fakeX
 
-![demo](https://raw.githubusercontent.com/ansonhex/rawimages/master/img/fakex-demo.png)
+![demo](https://raw.githubusercontent.com/ansonhex/rawimages/master/img/fakex-demo2.png)
+
+> [Live Demo](https://fakex.vercel.app)
 
 **fakeX** is a social media application that allows users to **create, share posts**, and interact with other users through likes and comments.
 
@@ -15,3 +17,13 @@
 - Deployment:
   - Frontend: `Vercel`
   - Backend & Database: `self-hosted`
+
+## Features
+
+- **Authentication**: Login with GitHub and Google supported by [Auth0](https://auth0.com/)
+- **Post Creation**: Users can create, edit, and delete posts
+- **Likes and Comments**: Interact with posts through likes and comments
+- **Profile Management**: Users can update their profile picture
+- **React Router**: Client-side routing for seamless navigation
+
+## LICENSE
