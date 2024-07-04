@@ -10,7 +10,6 @@ import VerifyUser from "./components/VerifyUser";
 import PostDetails from "./components/PostDetails";
 import RequireAuth from "./components/RequireAuth";
 import Profile from "./components/Profile";
-import Auth0Debugger from "./components/Auth0Debugger";
 import "./index.css";
 import { HelmetProvider } from "react-helmet-async";
 
@@ -41,7 +40,6 @@ root.render(
                 <Route element={<RequireAuth />}>
                   <Route path="posts/:id" element={<PostDetails />} />
                   <Route path="profile" element={<Profile />} />
-                  <Route path="auth0-debugger" element={<Auth0Debugger />} />
                 </Route>
                 <Route path="*" element={<NotFound />} />
               </Route>

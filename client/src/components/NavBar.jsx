@@ -2,12 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 import Login from "./Login";
-import {
-  IoHomeOutline,
-  IoHomeSharp,
-  IoBugOutline,
-  IoBugSharp,
-} from "react-icons/io5";
+import { IoHomeOutline, IoHomeSharp } from "react-icons/io5";
 import { FaUser, FaRegUser } from "react-icons/fa";
 import Logo from "./Logo";
 
@@ -66,29 +61,6 @@ export default function NavBar() {
                     <FaRegUser className="text-gray-800" />
                   )}
                   <span className="sm:inline md:hidden lg:inline">Profile</span>
-                </Link>
-              </li>
-              <li
-                className={`flex items-center py-2 ml-12 ${
-                  isActive("/auth0-debugger")
-                    ? "text-black font-bold"
-                    : "text-gray-800"
-                }`}
-              >
-                <Link
-                  to="/auth0-debugger"
-                  className={`flex items-center space-x-2 rounded-full py-3 px-4 ${
-                    isActive("/auth0-debugger") ? "" : "hover:bg-gray-200"
-                  }`}
-                >
-                  {isActive("/auth0-debugger") ? (
-                    <IoBugSharp className="text-black" />
-                  ) : (
-                    <IoBugOutline className="text-gray-800" />
-                  )}
-                  <span className="sm:inline md:hidden lg:inline">
-                    Auth Debugger
-                  </span>
                 </Link>
               </li>
             </>
