@@ -2,7 +2,7 @@
 
 ![demo](https://raw.githubusercontent.com/ansonhex/rawimages/master/img/fakex-demo2.png)
 
-> [Live Demo](https://fakex.ansonhe.app)
+> [Live Demo](https://fakex.ansonhe.com)
 
 **fakeX** is a social media application that allows users to **create, share posts**, and interact with other users through likes and comments.
 
